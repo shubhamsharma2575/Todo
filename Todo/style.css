@@ -1,0 +1,91 @@
+html{
+    height: auto;
+    min-height: 100%;
+    background: linear-gradient(to top right,#6c6c6c,#4f826f, #acac5d,#3d8fd7);
+    background-repeat: no-repeat;
+}
+#main{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(78, 78, 78);
+}
+#bodyy{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: -webkit-fill-available;
+    min-height: 60vh;
+    border-radius: 10px;
+    background-color: #141414;
+    color: #fff6f6;
+    padding: 20px;
+    min-width: 27lvw;
+    overflow: auto;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+#userinput{
+    color: white;
+    text-align: center;
+    border: none;
+    width: 200px;
+    background:transparent;
+    border-bottom: dotted white 1px;
+}
+
+#enter{
+    border-radius: 50% 50%;
+    display: flex;
+}
+#enter:hover{
+    border: 1px solid black;
+    font-size: 1.1rem;
+}
+.li{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+#ul{
+    display:;
+    justify-content: center;
+    list-style-type: decimal;
+}
+
+
+li{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;   
+}
+
+li > button{
+    border-radius: 15%;
+    background-color: rgb(0, 0, 0);
+    color: grey;
+}
+
+#clearbutton > button{
+ border-radius: 25%;   
+ font-size: 20px;
+ margin-top: 13px;
+ background-color:  rgb(78, 78, 78);
+ color: white;
+}
+
+#clearbutton > button:active{
+    font-size: smaller;
+}
